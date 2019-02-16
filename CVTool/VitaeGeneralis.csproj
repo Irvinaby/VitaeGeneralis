@@ -63,10 +63,10 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DataModel\IContactInfo.cs" />
-    <Compile Include="DataModel\IProfile.cs" />
-    <Compile Include="DataModel\ISkill.cs" />
-    <Compile Include="DataModel\IWorkExperience.cs" />
+    <Compile Include="DataModel\Interfaces\IContactInfo.cs" />
+    <Compile Include="DataModel\Interfaces\IProfile.cs" />
+    <Compile Include="DataModel\Interfaces\ISkill.cs" />
+    <Compile Include="DataModel\Interfaces\IWorkExperience.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>

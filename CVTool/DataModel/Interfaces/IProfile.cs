@@ -2,7 +2,7 @@
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace VitaeGeneralis.DataModel
+namespace VitaeGeneralis.Interfaces.DataModel
 {
     [XmlRoot("CV", IsNullable = false)]
     public interface IProfile

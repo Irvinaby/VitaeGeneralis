@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace VitaeGeneralis.DataModel
+namespace VitaeGeneralis.Interfaces.DataModel
 {
     public interface IWorkExperience
     {

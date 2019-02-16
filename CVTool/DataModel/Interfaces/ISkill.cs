@@ -1,4 +1,4 @@
-﻿namespace VitaeGeneralis.DataModel
+﻿namespace VitaeGeneralis.Interfaces.DataModel
 {
     public interface ISkill
     {
