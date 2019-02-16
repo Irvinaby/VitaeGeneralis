@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Xml;
 using System.Xml.Serialization;
 
@@ -13,5 +14,7 @@ namespace VitaeGeneralis.Interfaces.DataModel
         DateTime DateOfBirth { get; set; }
 
         IContactInfo ContactInformation { get; set; }
+
+        IEnumerable<IWorkExperience> WorkExperience { get; set; }
     }
 }

@@ -1,3 +1,4 @@
 .vs
-CVTool\bin
-CVTool\obj
+/CVTool/bin
+/CVTool/obj
+

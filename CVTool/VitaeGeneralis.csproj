@@ -67,6 +67,7 @@
     <Compile Include="DataModel\Interfaces\IProfile.cs" />
     <Compile Include="DataModel\Interfaces\ISkill.cs" />
     <Compile Include="DataModel\Interfaces\IWorkExperience.cs" />
+    <Compile Include="DataModel\Profile.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
