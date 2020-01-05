@@ -11,7 +11,7 @@ namespace VitaeGeneralis.Interfaces.DataModel
 
         DateTime StartDate { get; set; }
 
-        DateTime EndDate { get; set; }
+        DateTime? EndDate { get; set; }
 
         IEnumerable<ISkill> Skills { get; set; }
 
